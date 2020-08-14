@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/excel-helper/static/css/main.eff465bd.chunk.css",
+    "main.js": "/excel-helper/static/js/main.afaed617.chunk.js",
+    "main.js.map": "/excel-helper/static/js/main.afaed617.chunk.js.map",
+    "runtime-main.js": "/excel-helper/static/js/runtime-main.81c67a79.js",
+    "runtime-main.js.map": "/excel-helper/static/js/runtime-main.81c67a79.js.map",
+    "static/css/2.d34346ea.chunk.css": "/excel-helper/static/css/2.d34346ea.chunk.css",
+    "static/js/2.19be1ac2.chunk.js": "/excel-helper/static/js/2.19be1ac2.chunk.js",
+    "static/js/2.19be1ac2.chunk.js.map": "/excel-helper/static/js/2.19be1ac2.chunk.js.map",
+    "index.html": "/excel-helper/index.html",
+    "precache-manifest.ffbe45d81796133d046e346371f5ed12.js": "/excel-helper/precache-manifest.ffbe45d81796133d046e346371f5ed12.js",
+    "service-worker.js": "/excel-helper/service-worker.js",
+    "static/css/2.d34346ea.chunk.css.map": "/excel-helper/static/css/2.d34346ea.chunk.css.map",
+    "static/css/main.eff465bd.chunk.css.map": "/excel-helper/static/css/main.eff465bd.chunk.css.map",
+    "static/js/2.19be1ac2.chunk.js.LICENSE.txt": "/excel-helper/static/js/2.19be1ac2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81c67a79.js",
+    "static/css/2.d34346ea.chunk.css",
+    "static/js/2.19be1ac2.chunk.js",
+    "static/css/main.eff465bd.chunk.css",
+    "static/js/main.afaed617.chunk.js"
+  ]
+}
