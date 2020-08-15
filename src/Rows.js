@@ -33,7 +33,6 @@ function Rows({ row, key, columnIndex = 0 }) {
             document.execCommand('copy');
             // Remove temporary element
             document.body.removeChild(el);
-
         } catch (error) {
             console.log(error);
         } finally {
@@ -46,7 +45,6 @@ function Rows({ row, key, columnIndex = 0 }) {
         row.length > 0 && key !== 0 && (
             <React.Fragment>
                 {checked ? (<TableRow className={classes.checkedRow}>
-                    {row.length > 0 && row.map((i, index) => <TableCell key={index}>{i}</TableCell>)}
                     <TableCell>
                         <Button size='small'
                             width={70}
@@ -58,8 +56,8 @@ function Rows({ row, key, columnIndex = 0 }) {
                         >copied✓
                      </Button>
                     </TableCell>
-                </TableRow>) : (<TableRow className={classes.row}>
                     {row.length > 0 && row.map((i, index) => <TableCell key={index}>{i}</TableCell>)}
+                </TableRow>) : (<TableRow className={classes.row}>
                     <TableCell>
                         <Button size='small'
                             width={70}
@@ -72,6 +70,7 @@ function Rows({ row, key, columnIndex = 0 }) {
                         >copy
                     </Button>
                     </TableCell>
+                    {row.length > 0 && row.map((i, index) => <TableCell key={index}>{i}</TableCell>)}
                 </TableRow>)}
             </React.Fragment>
 

@@ -10,9 +10,15 @@ const useStyles = makeStyles((theme) => ({
 
 function Columns({ value, odd }) {
     const classes = useStyles({ odd });
+    let column_name
+    if (value.length > 6) {
+        column_name = value.slice(0, 6) + "...";
+    } else {
+        column_name = value
+    }
     return (
-        <TableCell className={classes.text} style={{ maxWidth: 65, wordBreak: 'break-all' }}>
-            {value}
+        <TableCell className={classes.text} style={{ minWidth: "20", maxWidth: "50", wordBreak: 'break-all' }}>
+            {column_name}
         </TableCell>
     );
 }
