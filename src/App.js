@@ -50,9 +50,9 @@ function App() {
       <Table size='small' aria-label='a dense table'>
         <TableHead>
           <TableRow className={classes.column}>
-            <TableCell>Action</TableCell>
             {table[0].length > 0 &&
               table[0].map((i, index) => <Columns value={i} key={index} />)}
+            <TableCell>Action</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
