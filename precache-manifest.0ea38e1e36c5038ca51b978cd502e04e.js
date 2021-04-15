@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "460b6b5d46403e75f1a8ecac6ee7d396",
+    "revision": "b85ff39c6a995143abba199075dac1dd",
     "url": "/excel-helper/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/excel-helper/static/css/2.d34346ea.chunk.css"
   },
   {
-    "revision": "7206e285a73fe419b810",
+    "revision": "905789234339a65c6a4b",
     "url": "/excel-helper/static/css/main.eff465bd.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/excel-helper/static/js/2.ce51e375.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7206e285a73fe419b810",
-    "url": "/excel-helper/static/js/main.45860764.chunk.js"
+    "revision": "905789234339a65c6a4b",
+    "url": "/excel-helper/static/js/main.c2670594.chunk.js"
   },
   {
     "revision": "a9aa7c735f328081ef5f",
