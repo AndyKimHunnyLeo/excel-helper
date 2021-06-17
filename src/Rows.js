@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   checkedRow: { backgroundColor: '#1abc9c' },
 }));
 
-function Rows({ row, key, columnIndex = 0 }) {
+function Rows({ row, key, columnIndex = 0, columnIndexTwo = 0, numberOfCopy }) {
   const [checked, setChecked] = useState(false);
 
   const classes = useStyles({ checked });
@@ -58,6 +58,20 @@ function Rows({ row, key, columnIndex = 0 }) {
                 copied✓  {' '}
               </Button>
             </TableCell>
+            {numberOfCopy === '2' && (
+              <TableCell>
+                <Button
+                  size='small'
+                  width={70}
+                  variant='outlined'
+                  onClick={() => {
+                    copyStringToClipboard(row[columnIndexTwo]);
+                  }}
+                  className={classes.button}>
+                  copied✓  {' '}
+                </Button>
+              </TableCell>
+            )}
           </TableRow>
         ) : (
           <TableRow className={classes.row}>
@@ -75,6 +89,20 @@ function Rows({ row, key, columnIndex = 0 }) {
                 copy
               </Button>
             </TableCell>
+            {numberOfCopy === '2' && (
+              <TableCell>
+                <Button
+                  size='small'
+                  width={70}
+                  variant='outlined'
+                  onClick={() => {
+                    copyStringToClipboard(row[columnIndexTwo]);
+                  }}
+                  className={classes.button}>
+                  copied
+                </Button>
+              </TableCell>
+            )}
           </TableRow>
         )}
       </React.Fragment>
